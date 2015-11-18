@@ -1,0 +1,19 @@
+Hi {{companyName}},
+
+Thank you so much for meeting with me on {{DateVisited}}. It was such a pleasure to learn more about the team and position, and I'm very excited about the opportunity to join {{companyName}} and help
+{% for item in items %}
+	{% if not loop.last %}
+		{{name}},
+		{% else %}
+		{{name}}
+	{% endif %}
+{% else %}
+	with working with {{companyName}}
+{% endfor %}
+with your team.
+
+I look forward to hearing from you about the next steps in the hiring process, and please do not hesitate to contact me if I can provide additional information.
+
+Best regards,
+
+{{myName}}
