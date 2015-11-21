@@ -1,6 +1,6 @@
-Hi {{companyName}},
+Hi {{ companyName }},
 
-Thank you so much for meeting with me on {{DateVisited}}. It was such a pleasure to learn more about the team and position, and I'm very excited about the opportunity to join {{companyName}} and help
+Thank you so much for meeting with me on {{ DateVisited }}. It was such a pleasure to learn more about the team and position, and I'm very excited about the opportunity to join {{companyName}} and help
 {% for item in items %}
 	{% if not loop.last %}
 		{{name}},

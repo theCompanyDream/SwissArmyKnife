@@ -11,7 +11,7 @@ config = {
     'author_email': 'brantleyiit@gmail.com',
     'version': '0.1',
     'install_requires': ['nose', 'jinja2'],
-    'packages': ['sync', 'automatedEmails'],
+    'packages': ['sync', 'email'],
     'scripts': [],
     'name': 'AutomatedServices'
 }
