@@ -6,14 +6,14 @@ except ImportError:
 config = {
     'description': 'My Project',
     'author': 'Timothy Brantley II',
-    'url': 'URL to get it at.',
-    'download_url': 'Where to download it.',
+    'url': '',
+    'download_url': '',
     'author_email': 'brantleyiit@gmail.com',
     'version': '0.1',
     'install_requires': ['nose', 'jinja2'],
-    'packages': ['NAME'],
+    'packages': ['sync', 'automatedEmails'],
     'scripts': [],
-    'name': 'Email'
+    'name': 'AutomatedServices'
 }
 
 setup(**config)
